@@ -1,0 +1,113 @@
+body {
+    background-color: #F5F5DC; /* Beige eller annan krämig färg */
+    color: #333333; /* Mörkgrå textfärg */
+    margin: 0;
+    padding: 0;
+}
+
+h1, p{
+    color: #333333;
+    text-align: center;
+}
+
+.content-container{
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner {
+    height: 200px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/plant-pottingshed-4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron {
+    background: none;
+    height: 20%;
+}
+
+.container-fluid {
+    color: white;
+}
+
+
+.img-responsive{
+    max-width: 100%;
+    min-width: 60%;
+    max-height: 200px; 
+    height: auto;
+}
+
+.news-header{
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-size: 52px;
+}
+
+.news-post {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: auto;
+    padding-top: 20px; 
+    padding-left: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
+    margin-left: 25%;
+}
+
+
+.about-us{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.about-us-container{
+
+    background-image: url('../img/kockar-med-eld.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
+.info-list, h3{
+
+    padding-top: 30px;
+    font-weight: 700;
+    color: #bfa988;
+}
+
+.info-list, p {
+    font-weight: 400;
+    color: black;
+}
+
+.thick-font{
+    font-weight: 700;
+
+}

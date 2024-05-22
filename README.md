@@ -1,38 +1,42 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+
+
+# Before you read! 
+
+### Alot of my work comes from tons of YouTube videos. Shoutout to https://www.youtube.com/@TechWithTim 
+
+
+My apologies but I  had no time left for the README page cuz I have been sitting for 60+ hours on this project with 6 days left on the submission. So I tried to do the best I could with the time I had left. 
+
+
+
 Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Reminders
 
-## Codeanywhere Reminders
+- Your code must be placed in the `run.py` file
+- Your dependencies must be placed in the `requirements.txt` file
+- Do not edit any of the other files or your code may not deploy properly
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Creating the Heroku app
 
-`python3 -m http.server`
+When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+1. `heroku/python`
+2. `heroku/nodejs`
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
-`http_server`
+If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Connect your GitHub repository and deploy as normal.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Constraints
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
 
 ---
 
